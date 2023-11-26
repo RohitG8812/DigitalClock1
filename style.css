@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: white;
+  }
+  
+  .main {
+    background: url(/images/pexels-cátia-matos-1072179.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: change 10s infinite ease-in-out;
+  }
+  
+  #heading {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    position: absolute;
+    top: 17%;
+    right: 36%;
+    font-size: em;
+    color: white;
+    font-weight: 800;
+    /* font-style: italic; */
+    font: italic small-caps bold 3em/2 cursive;
+    border: 2px solid goldenrod;
+    padding: 0px 50px;
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  #digital {
+    height: 100vh;
+    width: 100vw;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-style: italic; */
+    font: italic small-caps bold 16px/2 cursive;
+  }
+  
+  #digital div {
+    margin: 5px;
+  }
+  
+  #digital div span {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+  }
+  
+  .num {
+    font-size: 5em;
+  }
+  
+  .text {
+    font-size: 1.5em;
+  }
+  
+  .colon {
+    font-size: 50px;
+  }
+  
+  #ampm {
+    font-size: 3em;
+  }
+  
+  #date-day {
+    position: absolute;
+    top: 65%;
+  }
+  
+  #day {
+    font-size: 2.8em;
+    /* color: darkgoldenrod; */
+  }
+  
+  #date {
+    font-size: 1.4em;
+  }
+  
+  @keyframes change {
+    0% {
+      background-image: url(/images/1.jpg);
+    }
+    20% {
+      background-image: url(/images/2.jpg);
+    }
+    40% {
+      background-image: url(/images/3.png);
+    }
+    60% {
+      background-image: url(/images/4.jpg);
+    }
+    80% {
+      background-image: url(/images/5.jpg);
+    }
+    100% {
+      background-image: url(/images/6.jpg);
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    #heading {
+      position: absolute;
+      top: 10%;
+      right: 34%;
+    }
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    #heading {
+      position: absolute;
+      top: 10%;
+      right: 34%;
+    }
+    #digital div span {
+      display: flex;
+      padding: 0px 20px;
+      line-height: 80px;
+    }
+    #digital div {
+      margin: 6px;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) {
+      .main {
+          background-size: cover;
+          background: center;
+        }
+      
+        #heading {
+          position: absolute;
+          right: 33%;
+          top: 12%;
+          font-size: 2.8em;
+          background: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+      
+        #digital {
+          height: 100vh;
+          width: 100vw;
+          font: italic small-caps bold 15px/2 cursive;
+        }
+      
+        #digital div {
+          margin: 6px;
+        }
+      
+        #digital div span {
+          display: flex;
+          padding: 0px 20px;
+          line-height: 80px;
+        }
+      
+        .colon {
+          font-size: 35px;
+        }
+  }
+  
+  @media only screen and (max-width: 1150px) {
+      #heading {
+          position: absolute;
+          right: 30%;
+      }
+      
+  }
+  
+  @media only screen and (max-width: 1000px) {
+      .main {
+          background-size: cover;
+          background: center;
+        }
+      
+        #heading {
+          position: absolute;
+          right: 28%;
+          top: 14%;
+          font-size: 2.6em;
+          background: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+      
+        #digital {
+          height: 100vh;
+          width: 100vw;
+          font: italic small-caps bold 15px/2 cursive;
+        }
+      
+        #digital div {
+          margin: 4px;
+        }
+      
+        #digital div span {
+          display: flex;
+          padding: 0px 20px;
+          line-height: 70px;
+        }
+      
+        .colon {
+          font-size: 35px;
+        }
+  }
+  
+  @media only screen and (max-width: 860px) {
+      .main {
+          background-size: cover;
+          background: center;
+        }
+      
+        #heading {
+          position: absolute;
+          right: 27%;
+          top: 16%;
+          font-size: 2.4em;
+          background: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+      
+        #digital {
+          height: 100vh;
+          width: 100vw;
+          font: italic small-caps bold 13px/2 cursive;
+        }
+      
+        #digital div {
+          margin: 4px;
+        }
+      
+        #digital div span {
+          display: flex;
+          padding: 0px 20px;
+          line-height:60px;
+        }
+      
+        .colon {
+          font-size: 35px;
+        }
+  }
+  
+  @media only screen and (max-width: 750px) {
+      .main {
+          background-size: cover;
+          background: center;
+        }
+      
+        #heading {
+          position: absolute;
+          right: 23%;
+          top: 18%;
+          font-size: 2.2em;
+          background: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+      
+        #digital {
+          height: 100vh;
+          width: 100vw;
+          font: italic small-caps bold 13px/2 cursive;
+        }
+      
+        #digital div {
+          margin: 3px;
+        }
+      
+        #digital div span {
+          display: flex;
+          padding: 0px 20px;
+          line-height: 60px;
+        }
+      
+        .colon {
+          font-size: 35px;
+        }
+      }
+  
+  
+  @media only screen and (max-width: 650px) {
+    .main {
+      background-size: cover;
+      background: center;
+    }
+  
+    #heading {
+      position: absolute;
+      right: 21%;
+      top: 20%;
+      font-size: 2.2em;
+      background: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  
+    #digital {
+      height: 100vh;
+      width: 100vw;
+      font: italic small-caps bold 11px/2 cursive;
+    }
+  
+    #digital div {
+      margin: 0px;
+    }
+  
+    #digital div span {
+      display: flex;
+      padding: 0px 20px;
+      line-height: 50px;
+    }
+  
+    .colon {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .main {
+      background-size: cover;
+      background: center;
+    }
+  
+    #heading {
+      position: absolute;
+      right: 21%;
+      top: 24%;
+      font-size: 1.8em;
+      background: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  
+    #digital {
+      height: 100vh;
+      width: 100vw;
+      font: italic small-caps bold 9px/2 cursive;
+    }
+  
+    #digital div {
+      margin: 0px;
+    }
+  
+    #digital div span {
+      display: flex;
+      padding: 0px 20px;
+      line-height: 40px;
+    }
+  
+    .colon {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 540px) {
+    #heading {
+      position: absolute;
+      right: 19%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .main {
+      background-size: cover;
+      background: center;
+    }
+  
+    #heading {
+      position: absolute;
+      right: 18%;
+      top: 25%;
+      font-size: 1.7em;
+      background: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  
+    #digital {
+      height: 100vh;
+      width: 100vw;
+      font: italic small-caps bold 9px/2 cursive;
+    }
+  
+    #digital div {
+      margin: 0px;
+    }
+  
+    #digital div span {
+      display: flex;
+      padding: 0px 20px;
+      line-height: 50px;
+    }
+  
+    .colon {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .main {
+      background-size: cover;
+      background: center;
+    }
+  
+    #heading {
+      position: absolute;
+      right: 18%;
+      top: 25%;
+      font-size: 1.3em;
+      background: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  
+    #digital {
+      height: 100vh;
+      width: 100vw;
+      font: italic small-caps bold 7px/2 cursive;
+    }
+  
+    #digital div {
+      margin: 0px;
+    }
+  
+    #digital div span {
+      display: flex;
+      padding: 0px 20px;
+      line-height: 40px;
+    }
+  
+    .colon {
+      font-size: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 395px) {
+    .main {
+      background-size: cover;
+      background: center;
+    }
+  
+    #heading {
+      position: absolute;
+      right: 18%;
+      top: 28%;
+      font-size: 1.2em;
+      background: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  
+    #digital {
+      height: 100vh;
+      width: 100vw;
+      font: italic small-caps bold 6px/2 cursive;
+    }
+  
+    #digital div {
+      margin: 0px;
+    }
+  
+    #digital div span {
+      display: flex;
+      padding: 0px 20px;
+      line-height: 35px;
+    }
+    .colon {
+      font-size: 30px;
+    }
+    #day {
+      font-size: 4.3em;
+      /* color: darkgoldenrod; */
+    }
+    
+    #date {
+      font-size: 2.4em;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .main {
+      background-size: cover;
+      background: center;
+    }
+  
+    #heading {
+      position: absolute;
+      right: 12%;
+      top: 28%;
+      font-size: 1.2em;
+      background: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  
+    #digital {
+      height: 100vh;
+      width: 100vw;
+      font: italic small-caps bold 5px/2 cursive;
+    }
+  
+    #digital div {
+      margin: 0px;
+    }
+  
+    #digital div span {
+      display: flex;
+      padding: 0px 10px;
+      line-height: 35px;
+    }
+  
+    .colon {
+      font-size: 30px;
+    }
+  }
+  
